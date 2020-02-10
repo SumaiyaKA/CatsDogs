@@ -14,23 +14,6 @@ public class Cat extends Animal
 
     }
 
-
-    public void setName()
-    {
-        
-    }
-
-    public void setNumLives()
-    {
-        
-    }
-
-    public void speak()
-    {
-        System.out.println("meow");
-    }
-
-
     public int getNumLives() {
         return numLives;
     }
@@ -38,5 +21,11 @@ public class Cat extends Animal
     public void setNumLives(int numLives) {
         this.numLives = numLives;
     }
+
+    public void speak()
+    {
+        System.out.println("meow");
+    }
+
 
 }

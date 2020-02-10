@@ -31,6 +31,18 @@ public class Animal
 
     }
 
+    public void speak()
+    {
+        System.out.println("I can't speak!");
+    }
+
+    // this gets called automaticailly 
+    public String toString()
+    {
+        return getName();
+
+    }
+
             
         
     
